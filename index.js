@@ -45,9 +45,9 @@ function gameShow(switchValue = true, numOfTests) {
   return noOfWins;
 }
 
-let numberOfTestCases = 1000;
-let noOfWinsWithoutSwitch = gameShow(false, numberOfTestCases);
-let noOfWinsWithSwitch = gameShow(true, numberOfTestCases);
+let numberOfTestCases = 1000; // Total number of test cases
+let noOfWinsWithoutSwitch = gameShow(false, numberOfTestCases); // Simulating the game without switching doors
+let noOfWinsWithSwitch = gameShow(true, numberOfTestCases); // Simulating the game with switching between doors
 
 console.log(`Testing each case with ${numberOfTestCases} test cases`);
 console.log(
