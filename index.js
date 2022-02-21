@@ -33,10 +33,9 @@ function gameShow(switchValue = true, numOfTests) {
       playerChoice = switchFunction(shownDoor, numDoors, playerChoice);
     }
     if (playerChoice === host && switchValue === false) {
+      //Then the player wins from not switching
       noOfWins++;
-    }
-    //Then the player wins from not switching
-    else if (playerChoice === host && switchValue === true) {
+    } else if (playerChoice === host && switchValue === true) {
       //Then the player wins from switching
       noOfWins++;
     }
