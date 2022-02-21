@@ -1,4 +1,4 @@
-# cb-challenge-1
+# CodeBeans Challenge-1
 
 There are no dependencies
 
